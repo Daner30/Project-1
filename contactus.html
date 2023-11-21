@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="extension.css">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Initial D</title>
+</head>
+
+<body>
+<section class="header">
+    <div class="container" style="margin-top: 30px;">
+        <nav class="navbar navbar-expand-lg custom-navbar-bg" style="border-radius: 10px;" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="100" height="40">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-white" style="border-radius: 5px;"> -</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><i class="bi bi-speedometer2"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html"><i class="bi bi-people"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" href="contactus.html"><i class="bi bi-telephone"></i> Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" style="border: none;" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <!------ Contact Us Content ------->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8" style="padding-bottom: 50px;">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom:175px;">
+          <div class="col-lg-8" style="padding-bottom: 50px;">
+            <h1 style="padding-bottom: 50px;">Where to contact?</h1>
+            <p>If there's anything you want to ask. You may contact me by clicking those icons below. It will redirect you to my Facebook or Gmail account.</p>
+			      <p>By the way thanks for visiting my website :)</p>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="d-flex flex-column align-items-center">
+              <a href="https://web.facebook.com/justcallmeDaner"><img src="img/contact/fb.png" class="img-fluid" style="margin-top: 100px;" width="100px" height="100px"></a>
+              <br>
+              <a href="mailto:jbnmurillo@gmail.com"><img src="img/contact/gmail.webp" class="img-fluid" width="100px" height="100px"></a>
+            </div>
+          </div>
+        </div>                
+    </div>
+        <!-------- Footer -------->
+
+<!-- Footer section -->
+<section class="footer mt-auto">
+    <div class="d-flex justify-content-center">
+        <p class="mb-0">&copy; November 21, 2023 </p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <i class="bi bi-globe ms-2 me-2"></i>
+        <p class="mb-0">www.initial-d.com</p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <i class="bi bi-geo-alt ms-2 me-2"></i>
+        <p class="mb-0">Malbog, Boac, Marinduque, Philippines</p>
+    </div class="d-flex justify-content-center">
+        <a href="https://web.facebook.com/justcallmeDaner" class="text-white"><i class="bi bi-facebook ms-2 me-2"></i></a>
+        <a href="mailto:jbnmurillo@gmail.com" class="text-white"><i class="bi bi-envelope-at ms-2 me-2"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-twitter-x ms-2 me-2"></i></a>
+    </div>
+</section>
+</section>
+<script>
+    // Javascripts
+    document.getElementById('carouselExampleAutoplaying').addEventListener('mouseover', function () {
+        document.querySelector('.carousel-control-prev').style.display = 'block';
+        document.querySelector('.carousel-control-next').style.display = 'block';
+    });
+
+    document.getElementById('carouselExampleAutoplaying').addEventListener('mouseout', function () {
+        document.querySelector('.carousel-control-prev').style.display = 'none';
+        document.querySelector('.carousel-control-next').style.display = 'none';
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

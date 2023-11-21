@@ -1,0 +1,122 @@
+*{
+	font-family: sans-serif;
+}
+
+/*--------------Whole Page------------------*/
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+/*--------------NavBar----------------*/
+.custom-navbar-bg{
+	background: black;
+}
+
+.custom-navbar-bg .navbar-nav .nav-link{
+        color: white;
+        transition: 0.5s;
+    }
+
+.custom-navbar-bg .navbar-nav .nav-link.active-link {
+    color: red;
+}
+
+.custom-navbar-bg .navbar-nav .nav-link:hover{
+    color: grey;
+}
+
+/*---------Button--------*/
+.btn{
+    display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: black;
+	position: relative;
+	cursor: pointer;
+    transition: border 0.5s ease-out, border-radius 0.5s ease-out, background 0.5s ease-out;
+}
+
+.btn:hover{
+    border: 1px solid #a60505;
+    border-radius: 15px;
+	background: #424242;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: black;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+    transition: border 0.5s ease-out, border-radius 0.5s ease-out, background 0.5s ease-out;
+}
+
+.hero-btn:hover{
+	border: 1px solid #a60505;
+    border-radius: 10px;
+	background: #424242;
+}
+
+.container p{
+	font-size: 24px;
+}
+
+/*  layout  */
+
+.row{
+    color: white;
+}
+
+.row h1{
+	font-weight: bold;
+}
+
+.row h2{
+	font-weight: bold;
+}
+
+/*--------Carousel--------*/
+.carousel-item img {
+	transition: transform 0.3s ease;
+}
+
+.carousel-item:hover img {
+	transform: scale(1.1);
+}
+
+.carousel-control-prev, .carousel-control-next {
+	display: none;
+}
+
+.carousel-item h3{
+	transition: 1s;
+	text-align: center;
+	color: white;
+}
+
+/*--------footer--------*/
+
+.footer{
+	border-top: 5px solid rgb(167, 167, 167);
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	color: white;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
